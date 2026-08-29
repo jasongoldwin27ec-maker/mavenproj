@@ -1,0 +1,27 @@
+install maven ,java , java spring boot extention -download
+in edit environmental variable setup and check for version in comment prompt
+
+spring initializer : create maven
+4.1.0
+java
+com.example
+demo
+jar
+21
+spring web web
+dependencies
+save the folder
+mvn compile
+
+create a file home.html
+location ->under static 
+
+right click the home controller ->create new package (name - home controller)
+under the home controller create a new java file name it as controller
+@controller
+@getmapping 
+public string home()
+return "home.html"
+
+mvn spring-boot:run
+localhost:8080/home.html
